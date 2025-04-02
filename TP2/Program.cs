@@ -24,10 +24,20 @@ namespace TP2
 
             t1.Add(2);
             s1.Add(2);
+            Teacher t2 = new Teacher("njmm", "kkk", "jiuufe788");
+            Student s2 = new Student("mkil", "mak", "22lsi65774");
+
+            t2.Add(2);
+            s2.Add(2);
 
             t1.show(1,2);
             Console.WriteLine("\n===============\n");
             s1.show(1,2);
+
+            Console.WriteLine("\n===============\n");
+            t2.show(1,2);
+            Console.WriteLine("\n===============\n");
+            s2.show(1,2);
 
             Console.WriteLine("\n===============\n");
 
