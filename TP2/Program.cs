@@ -24,7 +24,7 @@ namespace TP2
 
             t1.Add(2);
             s1.Add(2);
-            Teacher t2 = new Teacher("njmm", "kkk", "jiuufe788");
+            Teacher t2 = new Teacher("kij", "km", "jiuufe788");
             Student s2 = new Student("mkil", "mak", "22lsi65774");
 
             t2.Add(2);
